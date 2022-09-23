@@ -20,8 +20,9 @@ int main(){
     cin >> size;
     int arr[size];
     int index = 0;
-    while(index++ != size){
+    while(index != size){
         cin >> arr[index];
+        index++;
     }
     cout << isSorted(arr, size);
 }
